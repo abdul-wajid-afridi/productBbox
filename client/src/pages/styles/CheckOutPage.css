@@ -1,0 +1,14 @@
+.checkOut__container {
+  background: rgba(0, 0, 0, 0.623);
+  @apply flex justify-center items-center  fixed inset-0;
+}
+
+.checkOut__btn {
+  @apply bg-gradient-to-r from-[#ff00c8] hover:to-[#8686ff]  hover:from-[#ff50d9] to-blue-600 rounded-full py-2 text-white font-bold tracking-wide;
+}
+.checkOut__total {
+  @apply w-auto text-center rounded-full text-cyan-400 font-bold text-2xl;
+}
+.checkOut__cancle {
+  @apply absolute top-0 right-0 p-2 text-white m-1 hover:bg-blue-700/70 bg-blue-500/40 rounded-md;
+}

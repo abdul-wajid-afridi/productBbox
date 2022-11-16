@@ -1,0 +1,18 @@
+.card {
+  @apply relative flex flex-col items-center h-[340px] w-[230px] shadow-md shadow-gray-400 rounded-md overflow-hidden;
+}
+.card img {
+  @apply h-[220px] w-full transition-all duration-300 hover:scale-x-110 mb-3;
+}
+.card p {
+  @apply text-gray-700;
+}
+.card h3 {
+  @apply text-gray-700 font-bold;
+}
+.card__trashcan {
+  @apply absolute top-2 right-2;
+}
+.card__edit {
+  @apply absolute top-2 left-2;
+}

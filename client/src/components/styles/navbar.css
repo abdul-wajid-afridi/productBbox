@@ -1,0 +1,15 @@
+.navbar {
+  @apply flex justify-between items-center px-10 h-[100px] bg-gray-200;
+}
+.navbar__menu {
+  @apply flex gap-5;
+}
+.navbar__items {
+  @apply font-bold capitalize tracking-wide hover:text-gray-600 flex  gap-2 items-center;
+}
+.navbar__cart {
+  @apply relative;
+}
+.navbar__cart span {
+  @apply absolute top-[-16px] right-0 text-gray-800;
+}
